@@ -1,0 +1,25 @@
+# .gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+*.env
+.env.*
+
+# Configuration files with secrets
+config.py
+
+# IDE files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
